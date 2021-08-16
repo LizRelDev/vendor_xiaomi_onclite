@@ -368,11 +368,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/aw87329_abrcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_abrcv.bin \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/aw87329_drcv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_drcv.bin \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/aw87329_kspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87329_kspk.bin \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/xiaomi/onclite/proprietary/vendor/firmware/cpp_firmware_v1_12_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_1.fw \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
     vendor/xiaomi/onclite/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
