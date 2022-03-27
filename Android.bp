@@ -123,9 +123,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "datastatusnotification",
+	name: "embms",
 	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
+	apk: "proprietary/system_ext/app/embms/embms.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -134,9 +134,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "embms",
+	name: "imssettings",
 	owner: "xiaomi",
-	apk: "proprietary/system_ext/app/embms/embms.apk",
+	apk: "proprietary/system_ext/app/imssettings/imssettings.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -181,23 +181,9 @@ android_app_import {
 }
 
 dex_import {
-	name: "vendor.qti.hardware.data.latency-V1.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "vendor.qti.hardware.soter-V1.0-java",
 	owner: "xiaomi",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.latency-V2.0-java",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/vendor.qti.latency-V2.0-java.jar"],
 	system_ext_specific: true,
 }
 
